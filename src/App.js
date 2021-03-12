@@ -9,6 +9,7 @@ import Spinner from './components/Spinner'
 const Contenedor = styled.div`
   max-width: 600px;
   margin: 0 auto;
+  margin-top: 15px;
 `
 const ContenedorFormulario = styled.div`
   background-color: #ffffff;
