@@ -14,9 +14,27 @@ const ContenedorResumen = styled.div`
 const Resumen = ({ datos }) => {
   // Extraer datos
 
-  const { marca, year, nitro } = datos
+  const {
+    marca,
+    kilometraje,
+    nitro,
+    llantas,
+    bodykit,
+    suspension,
+    vinilo,
+    pintura,
+  } = datos
 
-  if (marca === '' || nitro === '' || year === '') {
+  if (
+    marca === '' ||
+    kilometraje === '' ||
+    nitro === '' ||
+    llantas === '' ||
+    bodykit === '' ||
+    suspension === '' ||
+    vinilo === '' ||
+    pintura === ''
+  ) {
     return null
   }
 
@@ -25,8 +43,8 @@ const Resumen = ({ datos }) => {
       <h2>Resumen de cotizacion</h2>
       <ul>
         <li>Marca: {primeraMayuscula(marca)}</li>
-        <li>Plan: {primeraMayuscula(nitro)}</li>
-        <li>Año: {year}</li>
+        <li>Kilometraje: {primeraMayuscula(kilometraje)}</li>
+        <li>Nitro: {nitro}</li>
       </ul>
     </ContenedorResumen>
   )

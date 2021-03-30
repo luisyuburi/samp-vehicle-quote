@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import styled from '@emotion/styled'
 import {
-  obtenerDiferenciaYear,
   calcularMarca,
   calcularNitro,
   calcularLlantas,
@@ -72,7 +71,6 @@ const Formulario = ({ guardarResumen, guardarCargando }) => {
     suspension: '',
     vinilo: '',
     pintura: '',
-    bateria: '',
   })
 
   const [error, guardarError] = useState(false)
@@ -87,7 +85,6 @@ const Formulario = ({ guardarResumen, guardarCargando }) => {
     suspension,
     vinilos,
     pintura,
-    bateria,
   } = datos
 
   // Leer los datos del formulario y guardarlos en el state
@@ -204,7 +201,7 @@ const Formulario = ({ guardarResumen, guardarCargando }) => {
           <option value="solair">Solair</option>
           <option value="stafford">Stafford</option>
           <option value="stallion">Stallion</option>
-          <option value="sunrise">Sunruse</option>
+          <option value="sunrise">Sunrise</option>
           <option value="tahoma">Tahoma</option>
           <option value="tornado">Tornado</option>
           <option value="uranus">Uranus</option>
@@ -344,7 +341,7 @@ const Formulario = ({ guardarResumen, guardarCargando }) => {
           type="radio"
           name="pintura"
           value="2color"
-          checked={vinilos === '2color'}
+          checked={pintura === '2color'}
           onChange={obtenerInformacion}
         />{' '}
         2 Color(es)

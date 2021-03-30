@@ -1,8 +1,3 @@
-// Obtener la diferencia de años
-export function obtenerDiferenciaYear(year) {
-  return new Date().getFullYear() - year
-}
-
 // Calcula el total a pagar segun la marca
 export function calcularMarca(marca) {
   let valor
@@ -103,16 +98,16 @@ export function calcularMarca(marca) {
     case 'sadler':
       valor = 9000
       break
-    case ' savanna':
+    case 'savanna':
       valor = 57000
       break
-    case ' sentinel':
+    case 'sentinel':
       valor = 64000
       break
     case 'slamvan':
       valor = 75000
       break
-    case ' solair':
+    case 'solair':
       valor = 155000
       break
     case 'stafford':
@@ -124,16 +119,16 @@ export function calcularMarca(marca) {
     case 'sunrise':
       valor = 100000
       break
-    case ' tahoma':
+    case 'tahoma':
       valor = 42000
       break
-    case ' tornado':
+    case 'tornado':
       valor = 25000
       break
     case 'uranus':
       valor = 130000
       break
-    case ' voodoo':
+    case 'voodoo':
       valor = 55000
       break
     case 'washington':
