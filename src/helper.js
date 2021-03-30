@@ -127,7 +127,7 @@ export function calcularMarca(marca) {
       valor = 42000
       break
     case ' tornado':
-      valor - 25000
+      valor = 25000
       break
     case 'uranus':
       valor = 130000
