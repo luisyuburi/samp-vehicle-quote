@@ -14,9 +14,9 @@ const ContenedorResumen = styled.div`
 const Resumen = ({ datos }) => {
   // Extraer datos
 
-  const { marca, year, plan } = datos
+  const { marca, year, nitro } = datos
 
-  if (marca === '' || plan === '' || year === '') {
+  if (marca === '' || nitro === '' || year === '') {
     return null
   }
 
@@ -25,7 +25,7 @@ const Resumen = ({ datos }) => {
       <h2>Resumen de cotizacion</h2>
       <ul>
         <li>Marca: {primeraMayuscula(marca)}</li>
-        <li>Plan: {primeraMayuscula(plan)}</li>
+        <li>Plan: {primeraMayuscula(nitro)}</li>
         <li>Año: {year}</li>
       </ul>
     </ContenedorResumen>

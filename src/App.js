@@ -21,7 +21,7 @@ function App() {
     datos: {
       marca: '',
       year: '',
-      plan: '',
+      nitro: '',
     },
   })
 
