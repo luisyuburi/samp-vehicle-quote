@@ -28,7 +28,9 @@ const TextoCotizacion = styled.p`
 
 const Resultado = ({ cotizacion }) => {
   return cotizacion === 0 ? (
-    <Mensaje>Elige marca, año y tipo de seguro</Mensaje>
+    <Mensaje>
+      Ingresa la marca, kilometraje y especificaciones de tu vehiculo
+    </Mensaje>
   ) : (
     <ResultadoCotizacion>
       <TransitionGroup component="span" className="resultado">
