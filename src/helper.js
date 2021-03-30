@@ -130,7 +130,7 @@ export function calcularMarca(marca) {
       valor - 25000
       break
     case 'uranus':
-      vaue = 130000
+      valor = 130000
       break
     case ' voodoo':
       valor = 55000
