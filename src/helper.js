@@ -91,55 +91,55 @@ export function calcularMarca(marca) {
       valor = 32000
       break
     case 'primo':
-      value = 25000
+      valor = 25000
       break
     case 'rancher':
-      value = 60000
+      valor = 60000
       break
     case 'sabre':
-      value = 300000
+      valor = 300000
       break
     case 'sadler':
-      value = 9000
+      valor = 9000
       break
     case ' savanna':
-      value = 57000
+      valor = 57000
       break
     case ' sentinel':
-      value = 64000
+      valor = 64000
       break
     case 'slamvan':
-      value = 75000
+      valor = 75000
       break
     case ' solair':
-      value = 155000
+      valor = 155000
       break
     case 'stafford':
-      value = 120000
+      valor = 120000
       break
     case stallion:
-      value = 105000
+      valor = 105000
       break
     case 'sunrise':
-      value = 100000
+      valor = 100000
       break
     case ' tahoma':
-      value = 42000
+      valor = 42000
       break
     case ' tornado':
-      value - 25000
+      valor - 25000
       break
     case 'uranus':
       vaue = 130000
       break
     case ' voodoo':
-      value = 55000
+      valor = 55000
       break
     case 'washington':
-      value = 55000
+      valor = 55000
       break
     case 'windsor':
-      value = 145000
+      valor = 145000
       break
     default:
       break
