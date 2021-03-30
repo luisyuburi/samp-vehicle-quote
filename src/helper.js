@@ -66,9 +66,10 @@ export function calcularMarca(marca) {
       break
     case 'linerunner':
       valor = 280000
-    case 'majestic':
       break
+    case 'majestic':
       valor = 155000
+      break
     case 'manana':
       valor = 45000
       break
