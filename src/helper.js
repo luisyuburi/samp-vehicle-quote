@@ -117,7 +117,7 @@ export function calcularMarca(marca) {
     case 'stafford':
       valor = 120000
       break
-    case stallion:
+    case 'stallion':
       valor = 105000
       break
     case 'sunrise':
